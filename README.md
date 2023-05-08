@@ -10,14 +10,14 @@ The simulations were run on Ubuntu 20.04 Virtual Machine (vmware.org) without us
 MorphoDynamX depends on the following: 
  
 * Depends: xdg-utils
-*  Depends: libqt5widgets5
-*  Depends: libqt5opengl5
-*  Depends: libqt5xml5
-*  Depends: libqt5printsupport5
-*  Depends: libtbb2
-*  Depends: libtriangle-1.6
-*  Depends: libgsl23
-*  Recommends: libtbb2
+* Depends: libqt5widgets5
+* Depends: libqt5opengl5
+* Depends: libqt5xml5
+* Depends: libqt5printsupport5
+* Depends: libtbb2
+* Depends: libtriangle-1.6
+* Depends: libgsl23
+* Recommends: libtbb2
 
 Which can be installed using apt-get.
 Example:
@@ -45,6 +45,16 @@ MorphoDynamX should launch.
 
 To run the model with an alternate mesh, replace baseline.mdxm and the associated *.txt files with those in the folders named 'barley-meshes', 'brachy-meshes' and 'bdmute-meshes'.
 
-Current limitation: Only one Python script can run with each launch of MorphoDynamX. Once one Python script run and completed, MorphoDynamX needs to be closed and re-launched using the above steps.
+To create pictures/gif of the simulation. 
+* In MorphoDynamX, under /Process/Tools/Python/Python Script input ```take-pics.py```. 
+* Press 'Step' (the play button) to create the pictures/gif.
+(Also see limitations below)
 
+
+
+
+Current limitations: 
+1. Only one Python script can run with each launch of MorphoDynamX. Once one Python script run and completed, MorphoDynamX needs to be closed and re-launched using the above steps.
+2a. The Python script take-pics.py works by taking screenshots within MorphoDynamX. Therefore, the overlayed text will not be in the same location for each setup. The user will need to edit take-pics.py to overlay text for their images.
+2b. Similarly, the heatmap is overlayed as well. If the heatmap for stress is changed from 0-75 MPa, heatmap.png will need to be replaced with a picture of the new legend.
 
