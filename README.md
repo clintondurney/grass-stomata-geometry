@@ -1,9 +1,26 @@
 # grass-stomata-geometry
 MorophDynamX and MorphoMechanX code used in "Grasses exploit geometry to achieve improved guard cell dynamics" 
 
+### (May 8, 2023: Currently being amended)
+
 The following code was used in "Grasses exploit geometry to achieve improved guard cell dynamics" Durney et. al. 2023.  
 
 The simulations were run on Ubuntu 20.04 Virtual Machine (vmware.org) without use of an NVIDIA graphics card. 
+
+MorphoDynamX depends on the following: 
+ Depends: xdg-utils
+ Depends: libqt5widgets5
+ Depends: libqt5opengl5
+ Depends: libqt5xml5
+ Depends: libqt5printsupport5
+ Depends: libtbb2
+ Depends: libtriangle-1.6
+ Depends: libgsl23
+ Recommends: libtbb2
+
+Which can be installed using apt-get.
+Example:
+```sudo apt-get install xdg-utils'''
 
 
 To install MorphoDynamX/MorphoMechanX.
