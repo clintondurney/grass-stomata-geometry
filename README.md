@@ -25,7 +25,8 @@ MorphoDynamX should launch.
 * In MorphoDynamX, under /Process/Tools/Python/Python Script input ```fourcellsim.py``` or ```twocellsim.py``` for a four or two cell simulation respectively.
 * Press 'Step' (the play button) to run the simulation.
 
+To run the model with an alternate mesh, replace baseline.mdxm and the associated *.txt files with those in the folders named 'barley-meshes', 'brachy-meshes' and 'bdmute-meshes'.
 
-
+Current limitation: Only one Python script can run with each launch of MorphoDynamX. Once one Python script run and completed, MorphoDynamX needs to be closed and re-launched using the above steps.
 
 
