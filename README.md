@@ -21,7 +21,7 @@ MorphoDynamX depends on the following:
 
 Which can be installed using apt-get.
 Example:
-```sudo apt-get install xdg-utils'''
+```sudo apt-get install xdg-utils```
 
 
 To install MorphoDynamX/MorphoMechanX.
