@@ -10,9 +10,10 @@ The simulations were run on Ubuntu 20.04 Virtual Machine (vmware.org) without an
 To run the models, the following needs to be perfomed.
 
 1. Install Ubuntu 20.04.
-1. Install MorphoDynamX using the provided .deb package
+2. Install MorphoDynamX using the provided .deb package
+
     ```sudo dpkg -i \*.deb```
-2.
+3.
 
 
 
