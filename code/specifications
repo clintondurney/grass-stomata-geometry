@@ -1,0 +1,48 @@
+FemMembranes.cpp
+FemMembranes.hpp
+FemMembranes.mdxv
+FemMembranes.qrc
+MDXDebug.txt
+FemMembranes.png
+heatmap.png
+Hv_ABA_3_4_SC_CNN_mesh.mdxm
+baseline.mdxm
+boundary-SC.txt
+GCs.txt
+SCs.txt
+rods.txt
+globals.py
+fourcellsim.py
+twocellsim.py
+iterate-parm.py
+take-pics.py
+description.txt
+Makefile
+ignore:
+MorphoDynamX.py
+*.o
+*.so
+*
+Run:
+	gnome-terminal -x bash -c "make run"
+
+LabTable:
+	xdg-open .
+
+LabTableShell:
+	OBJSHELL
+
+DynamXHelp:
+	xdg-open /usr/local/share/doc/MorphoDynamX/html/index.html
+
+Files:
+	Model:
+		OBJED FemMembranes.cpp
+	Header:
+		OBJED FemMembranes.hpp
+	Parameters:
+		OBJED FemMembranes.mdxp
+	Description:
+		OBJED FemMembranes.txt
+	Specifications:
+		OBJED specifications
