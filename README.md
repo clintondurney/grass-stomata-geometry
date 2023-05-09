@@ -18,7 +18,9 @@ To run the automated models, the following Python packages need to be installed:
 1. __numpy__
 2. __os__
 3. (optional) __PIL__ (for making snapshots and gifs of the pressurized models)
+
 These can be installed using ```apt-get```.
+
 Example: ```sudo apt-get install numpy```
 
 To run a model.
