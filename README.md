@@ -49,12 +49,6 @@ __Current limitations__
   b. Similarly, the heatmap is overlayed as well. If the heatmap for stress is changed from 0-75 MPa, heatmap.png will need to be replaced with a picture of the new legend.
 
 
-1. Item 1
-2. Item 2
-   a. Subitem a
-   b. Subitem b
-3. Item 3
-
 
 
 
