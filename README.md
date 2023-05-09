@@ -44,7 +44,7 @@ To create pictures/gif of the simulation.
 
 __Current limitations__
 1. Only one Python script can run with each launch of MorphoDynamX. Once one Python script run and completed, MorphoDynamX needs to be closed and re-launched using the above steps.
-2.   
-    a. The Python script take-pics.py works by taking screenshots within MorphoDynamX. Therefore, the overlayed text will not be in the same location for each setup. The user will need to edit take-pics.py to overlay text for their images.
-    b. Similarly, the heatmap is overlayed as well. If the heatmap for stress is changed from 0-75 MPa, heatmap.png will need to be replaced with a picture of the new legend.
+2. To create pictures/gifs:
+ a. The Python script take-pics.py works by taking screenshots within MorphoDynamX. Therefore, the overlayed text will not be in the same location for each setup. The user will need to edit take-pics.py to overlay text for their images.
+ b. Similarly, the heatmap is overlayed as well. If the heatmap for stress is changed from 0-75 MPa, heatmap.png will need to be replaced with a picture of the new legend.
 
