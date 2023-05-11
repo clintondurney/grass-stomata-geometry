@@ -9,7 +9,7 @@ The simulations were run on an Ubuntu 20.04 Virtual Machine [(vmware.org)](vmwar
 
 1. Install MorphoDynamX using the provided .deb package
 
-    ```sudo dpkg -i MDX-2.0.2-1236-Ubuntu20.04-OMP-CellMaker-FemLib-Gmsh.deb``` 
+    ```$ sudo dpkg -i MDX-2.0.2-1236-Ubuntu20.04-OMP-CellMaker-FemLib-Gmsh.deb``` 
 
 If MorphoDynamX fails to install, the terminal should give you an indication of why. This is most likely due to a dependency issue.  Some known dependencies that could be missing at this stage are:
 * g++
@@ -48,9 +48,11 @@ Example: ```$ pip install numpy```
 
 ### To run the automated models:
 1. Update globals.py to set your target output directory and change any model parameters. It is necessary to change the output directory to follow your own file structure.
-2. ```$ make clean``` and MorphoDynamX should open.
-3. In MorphoDynamX, under /Process/Tools/Python/Python Script input ```fourcellsim.py``` or ```twocellsim.py``` for a four or two cell simulation respectively.
-4. Press 'Step' (the play button) to run the simulation.
+2. ```$ make clean``` 
+3. ```$ make```
+4. ```$ make run``` and MorphoDynamX should open.
+5. In MorphoDynamX, under /Process/Tools/Python/Python Script input ```fourcellsim.py``` or ```twocellsim.py``` for a four or two cell simulation respectively.
+6. Press 'Step' (the play button) to run the simulation.
 Thisl should now run a simulation. To run the model with an alternate mesh, replace baseline.mdxm and the associated *.txt files with those in the sub-folders named 'barley-meshes', 'brachy-meshes' and 'bdmute-meshes'.
 
 To create pictures/gif of the simulation. 
