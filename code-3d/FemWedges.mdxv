@@ -71,7 +71,7 @@ Shininess: 32
 Specular: 0.2
 UnsharpStrength: 1
 MaxNbPeels: 10
-CameraFrame: 0.974829 0.0176177 0.222255 0 -0.0194435 0.999793 0.00602922 0 -0.222103 -0.0101989 0.97497 0 0.144606 0.45937 -222.588 1
+CameraFrame: 0.974829 0.0176177 0.222255 0 -0.0194435 0.999793 0.00602923 0 -0.222103 -0.0101989 0.97497 0 0.144606 0.45937 -222.588 1
 SceneRadius: 500
 CameraZoom: -0.48
 
@@ -84,7 +84,7 @@ GridSize: 1
 GridSquares: 3
 GridColor: 11
 Normal: 1 0 0
-Frame: 0.0191421 0.998854 0.0438571 0 -0.935754 0.00244917 0.352644 0 0.352133 -0.0477898 0.934729 0 -13.666 -0.364606 -9.1104 1
+Frame: 0.0191423 0.998854 0.0438569 0 -0.935754 0.00244946 0.352644 0 0.352133 -0.0477897 0.934729 0 -13.666 -0.364606 -9.1104 1
 
 
 [Clip2]
@@ -95,7 +95,7 @@ GridSize: 1
 GridSquares: 3
 GridColor: 12
 Normal: 0 1 0
-Frame: 0.757582 -0.645595 -0.0963132 0 -0.647588 -0.724871 -0.234929 0 0.0818547 0.240349 -0.967229 0 22.9679 9.73983 11.1195 1
+Frame: 0.757581 -0.645596 -0.0963179 0 -0.647589 -0.72487 -0.23493 0 0.0818522 0.240353 -0.967228 0 22.9679 9.73983 11.1195 1
 
 
 [Clip3]
@@ -129,19 +129,6 @@ LoadMeshTransform: false
 CCName: Cells 3D
 Frame: 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
 Trans: 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1
-
-
-[Store:Stack1:Main]
-FileName: Hv_ABA_3_4_SC_CNN_segmented-Down.tif
-Visible: false
-Bits16:true
-ClipVoxels:true
-ClipLabels:false
-Shading:false
-Labels:true
-Bright:1
-Opacity:1
-ColorMap: Interpolation:\srgb\nClamp:\strue\nExteriorColor:\s0,0,0,0\nColoredPos:\s0-0,0,0,0\nColoredPos:\s1-0,1,1,1\n
 
 
 [Plane]
