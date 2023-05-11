@@ -7,7 +7,7 @@ The following code was used in "Grasses exploit geometry to achieve improved gua
 
 The simulations were run on an Ubuntu 20.04 Virtual Machine [(vmware.org)](vmware.org) without use of an NVIDIA graphics card. However, the CUDA library and Thrust need to be installed for the models to compile. These can be installed [here](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=20.04&target_type=deb_local).
 
-To install MorphoDynamX/MorphoMechanX for Ubuntu 20.04.
+### To install MorphoDynamX/MorphoMechanX for Ubuntu 20.04.
 
 1. Install MorphoDynamX using the provided .deb package
 
@@ -40,7 +40,7 @@ If an error occurs, most likely there are missing dependencies. Once again, the 
 
 For a full list of potential dependencies, please see the file dependencies.txt included in this repository.
 
-The following Python packages need to be installed:
+### The following Python packages need to be installed:
 1. __numpy__
 2. (optional) __PIL__ (for making snapshots and gifs of the pressurized stoma meshes)
 
@@ -48,7 +48,7 @@ These can be installed using ```pip```.
 
 Example: ```$ pip install numpy```
 
-To run the automated models:
+### To run the automated models:
 1. Update globals.py to set your target output directory and change any model parameters. It is necessary to change the output directory to follow your own file structure.
 2. ```$ make clean``` and MorphoDynamX should open.
 3. In MorphoDynamX, under /Process/Tools/Python/Python Script input ```fourcellsim.py``` or ```twocellsim.py``` for a four or two cell simulation respectively.
@@ -66,6 +66,7 @@ __Current limitations__
   * The Python script take-pics.py works by taking screenshots within MorphoDynamX. Therefore, the overlayed text will not be in the same location for each setup. The user will need to edit take-pics.py to overlay text for their images.
   *  Similarly, the heatmap is overlayed as well. If the heatmap for stress is changed from 0-75 MPa, heatmap.png will need to be replaced with a picture of the new legend.
 
-
+### Alternative method
+To obtain a VMWare Virtual Machine that is preconfigured please contact Clinton (clinton.durney@jic.ac.uk) to obtain a copy. The file size is >25Gb.
 
 
