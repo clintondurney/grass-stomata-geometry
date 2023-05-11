@@ -66,6 +66,15 @@ __Current limitations__
   * The Python script take-pics.py works by taking screenshots within MorphoDynamX. Therefore, the overlayed text will not be in the same location for each setup. The user will need to edit take-pics.py to overlay text for their images.
   *  Similarly, the heatmap is overlayed as well. If the heatmap for stress is changed from 0-75 MPa, heatmap.png will need to be replaced with a picture of the new legend.
 
+### To run the model using 3D Elements
+1. In a terminal, navigate to the directory code-3d
+2. ```$ make clean``` 
+3. ```$ make```
+4. ```$ make run``` and MorphoDynamX should open.
+5. In MorphoDynamX, under /Process/Model select 01 FEM Wedges and press 'Step' (the play button) to run the simulation.l
+
+The version of MorphoDynamX that runs 3D elements, does not have the necessary add-on to calculate the geometric dimensions related to the pore size. In order to obtain these measurements, the inflated mesh should be saved and opened in the version of MorphoDynamX in the directory 'code'.
+
 ### Alternative method
 To obtain a VMWare Virtual Machine that is preconfigured please contact Clinton (clinton.durney@jic.ac.uk) to obtain a copy. The file size is >25Gb.
 

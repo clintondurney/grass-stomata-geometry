@@ -1,0 +1,40 @@
+FemWedges.cpp
+FemWedges.hpp
+FemWedges.mdxv
+FemWedges.qrc
+FemWedges.png
+baseline-3d.mdxm
+rods.txt
+GCFaces.txt
+SCFaces.txt
+dirichlet.txt
+description.txt
+Makefile
+ignore:
+MorphoDynamX.py
+*.o
+*.so
+*
+Run:
+	gnome-terminal -x bash -c "make run"
+
+LabTable:
+	xdg-open .
+
+LabTableShell:
+	OBJSHELL
+
+DynamXHelp:
+	xdg-open /usr/local/share/doc/MorphoDynamX/html/index.html
+
+Files:
+	Model:
+		OBJED FemWedges.cpp
+	Header:
+		OBJED FemWedges.hpp
+	Parameters:
+		OBJED FemWedges.mdxp
+	Description:
+		OBJED FemWedges.txt
+	Specifications:
+		OBJED specifications
