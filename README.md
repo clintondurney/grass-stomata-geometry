@@ -50,7 +50,7 @@ Example: ```$ pip install numpy```
 
 To run the automated models:
 1. Update globals.py to set your target output directory and change any model parameters. It is necessary to change the output directory to follow your own file structure.
-2. ```$ make clean''' and MorphoDynamX should open.
+2. ```$ make clean``` and MorphoDynamX should open.
 3. In MorphoDynamX, under /Process/Tools/Python/Python Script input ```fourcellsim.py``` or ```twocellsim.py``` for a four or two cell simulation respectively.
 4. Press 'Step' (the play button) to run the simulation.
 Thisl should now run a simulation. To run the model with an alternate mesh, replace baseline.mdxm and the associated *.txt files with those in the sub-folders named 'barley-meshes', 'brachy-meshes' and 'bdmute-meshes'.
