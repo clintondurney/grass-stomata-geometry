@@ -79,7 +79,7 @@ The version of MorphoDynamX that runs 3D elements, does not have the necessary a
 To obtain a VMWare Virtual Machine that is preconfigured please contact Clinton (clinton.durney@jic.ac.uk) to obtain a copy. The file size is >25Gb.
 
 ### Help
-For additional resources on MorphoGraphX, MorphoDynamx and MorphoMechanX please visit (https://morphographx.org/) and [Strauss, Sören, et al. "Using positional information to provide context for biological image analysis with MorphoGraphX 2.0." Elife 11 (2022): e72601](https://doi.org/10.7554/eLife.72601).
+For additional resources on MorphoGraphX, MorphoDynamx and MorphoMechanX please visit [https://morphographx.org](https://morphographx.org/) and [Strauss, Sören, et al. "Using positional information to provide context for biological image analysis with MorphoGraphX 2.0." Elife 11 (2022): e72601](https://doi.org/10.7554/eLife.72601).
 
 For any questions please contact Clinton at clinton.durney@jic.ac.uk.
 
