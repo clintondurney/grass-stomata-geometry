@@ -71,12 +71,17 @@ __Current limitations__
 2. ```$ make clean``` 
 3. ```$ make```
 4. ```$ make run``` and MorphoDynamX should open.
-5. In MorphoDynamX, under /Process/Model select 01 FEM Wedges and press 'Step' (the play button) to run the simulation.l
+5. In MorphoDynamX, under /Process/Model select 01 FEM Wedges and press 'Step' (the play button) to run the simulation.
 
-The version of MorphoDynamX that runs 3D elements, does not have the necessary add-on to calculate the geometric dimensions related to the pore size. In order to obtain these measurements, the inflated mesh should be saved and opened in the version of MorphoDynamX in the directory 'code'.
+The version of MorphoDynamX that runs 3D elements, does not have the necessary add-on to calculate the geometric dimensions related to pore size. In order to obtain these measurements, the inflated mesh should be saved and opened in the version of MorphoDynamX in the directory 'code'.
 
 ### Alternative method
 To obtain a VMWare Virtual Machine that is preconfigured please contact Clinton (clinton.durney@jic.ac.uk) to obtain a copy. The file size is >25Gb.
 
+### Help
+For additional resources on MorphoGraphX, MorphoDynamx and MorphoMechanX please visit (https://morphographx.org/) and [Strauss, Sören, et al. "Using positional information to provide context for biological image analysis with MorphoGraphX 2.0." Elife 11 (2022): e72601](https://doi.org/10.7554/eLife.72601).
+
 For any questions please contact Clinton at clinton.durney@jic.ac.uk.
+
+
 
