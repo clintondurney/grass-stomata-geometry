@@ -3,7 +3,7 @@ MorophDynamX and MorphoMechanX code used in "Grasses exploit geometry to achieve
 
 The following code was used in "Grasses exploit geometry to achieve improved guard cell dynamics" Durney et. al. 2023. DOI to the publication to be provided once it is generated.
 
-The simulations were run on an Ubuntu 20.04 Virtual Machine [(vmware.org)](vmware.org) without use of an NVIDIA graphics card. However, the CUDA library and Thrust need to be installed for the models to compile. These can be installed [here](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=20.04&target_type=deb_local).
+The simulations were run on an Ubuntu 20.04 Virtual Machine [(vmware.org)](vmware.org) without use of an NVIDIA graphics card. However, the CUDA library and Thrust need to be installed for the models to compile. Instructions to install these can be found [here](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=20.04&target_type=deb_local).
 
 ### To install MorphoDynamX/MorphoMechanX for Ubuntu 20.04.
 
@@ -60,12 +60,6 @@ To create pictures/gif of the simulation.
 * Press 'Step' (the play button) to create the pictures/gif. The output input/output directory is that specified in globals.py.
 (Also see limitations below)
 
-__Current limitations__
-* Only one Python script can run with each launch of MorphoDynamX. Once one Python script has run and completed, MorphoDynamX needs to be closed and re-launched using the above steps.
-* To create pictures/gifs:
-  * The Python script take-pics.py works by taking screenshots within MorphoDynamX. Therefore, the overlayed text will not be in the same location for each setup. The user will need to edit take-pics.py to overlay text for their images.
-  *  Similarly, the heatmap is overlayed as well. If the heatmap for stress is changed from 0-75 MPa, heatmap.png will need to be replaced with a picture of the new legend.
-
 ### To run the model using 3D Elements
 1. In a terminal, navigate to the directory code-3d
 2. ```$ make clean``` 
@@ -75,7 +69,13 @@ __Current limitations__
 
 The version of MorphoDynamX that runs 3D elements, does not have the necessary add-on to calculate the geometric dimensions related to pore size. In order to obtain these measurements, the inflated mesh should be saved and opened in the version of MorphoDynamX in the directory 'code'.
 
-### Alternative method
+__Current limitations__
+* Only one Python script can run with each launch of MorphoDynamX. Once one Python script has run and completed, MorphoDynamX needs to be closed and re-launched using the above steps.
+* To create pictures/gifs:
+  * The Python script take-pics.py works by taking screenshots within MorphoDynamX. Therefore, the overlayed text will not be in the same location for each setup. The user will need to edit take-pics.py to overlay text for their images.
+  *  Similarly, the heatmap is overlayed as well. If the heatmap for stress is changed from 0-75 MPa, heatmap.png will need to be replaced with a picture of the new legend.
+
+### Alternative method to installation
 To obtain a VMWare Virtual Machine that is preconfigured please contact Clinton (clinton.durney@jic.ac.uk) to obtain a copy. The file size is >25Gb.
 
 ### Help
