@@ -69,6 +69,8 @@ To create pictures/gif of the simulation.
 
 The version of MorphoDynamX that runs 3D elements, does not have the necessary add-on to calculate the geometric dimensions related to pore size. In order to obtain these measurements, the inflated mesh should be saved and opened in the version of MorphoDynamX in the directory 'code'.
 
+There is only one mesh provided of 3D elements to be used for comparison purposes. The details of which are explained in the manuscript. The comparative mesh of 2D/membrane elements can be found in barley-meshes/smoothed-mesh-compare-3d.
+
 __Current limitations__
 * Only one Python script can run with each launch of MorphoDynamX. Once one Python script has run and completed, MorphoDynamX needs to be closed and re-launched using the above steps.
 * To create pictures/gifs:
