@@ -1,7 +1,7 @@
 # grass-stomata-geometry
 MorophDynamX and MorphoMechanX code used in "Grasses exploit geometry to achieve improved guard cell dynamics" 
 
-The following code was used in "Grasses exploit geometry to achieve improved guard cell dynamics" Durney et. al. 2023. DOI to the publication to be provided once it is generated.
+The following code was used in "Grasses exploit geometry to achieve improved guard cell dynamics" Durney et. al. 2023. DOI: https://doi.org/10.1016/j.cub.2023.05.051
 
 The simulations were run on an Ubuntu 20.04 Virtual Machine [(vmware.org)](vmware.org) without use of an NVIDIA graphics card. However, the CUDA library and Thrust need to be installed for the models to compile. Instructions to install these can be found [here](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=20.04&target_type=deb_local).
 
@@ -82,6 +82,11 @@ To obtain a VMWare Virtual Machine that is preconfigured please contact Clinton 
 
 ### Help
 For additional resources on MorphoGraphX, MorphoDynamx and MorphoMechanX please visit [https://morphographx.org](https://morphographx.org/) and [Strauss, Sören, et al. "Using positional information to provide context for biological image analysis with MorphoGraphX 2.0." Elife 11 (2022): e72601](https://doi.org/10.7554/eLife.72601).
+
+### Citation
+If you use this repository, please cite the following work:
+
+Durney, C.H., Wilson, M.J., McGregor, S., Armand, J., Smith, R.S., Gray, J.E., Morris, R.J., Fleming, A.J., Grasses exploit geometry to achieve improved guard cell dynamics. *Current Biology*  33.13 (2023) DOI: https://doi.org/10.1016/j.cub.2023.05.051 
 
 For any questions please contact Clinton at clinton.durney@jic.ac.uk.
 
